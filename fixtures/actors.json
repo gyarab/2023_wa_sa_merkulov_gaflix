@@ -1,0 +1,52 @@
+[
+  {
+    "model": "filmy.actor",
+    "pk": 1,
+    "fields": {
+      "name": "Leonardo DiCaprio",
+      "birth_year": 1974,
+      "description": "Oceňovaný americký herec známý svými různorodými rolemi ve filmech jako Titanic, Inception a The Revenant.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.actor",
+    "pk": 2,
+    "fields": {
+      "name": "Robert Downey Jr.",
+      "birth_year": 1965,
+      "description": "Americký herec slavný svou rolí Tonyho Starka ve filmech Marvel Cinematic Universe a svými výkony ve filmech jako Sherlock Holmes a Chaplin.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.actor",
+    "pk": 3,
+    "fields": {
+      "name": "Scarlett Johansson",
+      "birth_year": 1984,
+      "description": "Americká herečka známá svými rolemi ve filmech Ztraceno v překladu, The Avengers a Manželská historie.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.actor",
+    "pk": 4,
+    "fields": {
+      "name": "Denzel Washington",
+      "birth_year": 1954,
+      "description": "Americký herec a režisér známý svými silnými výkony ve filmech jako Training Day, Malcolm X a Fences.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.actor",
+    "pk": 5,
+    "fields": {
+      "name": "Robert De Niro",
+      "birth_year": 1943,
+      "description": "Ikonický americký herec známý svými rolemi v klasických filmech jako Taxikář, Zuřící býk a Kmotr II.",
+      "main_picture": ""
+    }
+  }
+]

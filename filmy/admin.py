@@ -1,5 +1,6 @@
 from django.contrib import admin
-from filmy.models import Movie, Director, Genre, Actor
+from . models import Movie, Director, Genre, Actor
+
 
 class MovieAdmin(admin.ModelAdmin):
     pass
@@ -12,8 +13,10 @@ class DirectorAdmin(admin.ModelAdmin):
 class GenreAdmin(admin.ModelAdmin):
     pass
 
+
 class ActorAdmin(admin.ModelAdmin):
     pass
+
 
 admin.site.register(Movie, MovieAdmin)
 

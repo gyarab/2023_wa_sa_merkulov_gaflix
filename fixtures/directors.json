@@ -1,0 +1,52 @@
+[
+  {
+    "model": "filmy.director",
+    "pk": 1,
+    "fields": {
+      "name": "Christopher Nolan",
+      "birth_year": 1970,
+      "description": "Proslulý svými intelektuálními a ohromujícími filmy, Christopher Nolan je britsko-americký filmař známý svou prací na trilogii Temný rytíř, Počátek a Interstellar.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.director",
+    "pk": 2,
+    "fields": {
+      "name": "Steven Spielberg",
+      "birth_year": 1946,
+      "description": "Jeden z nejvlivnějších filmařů v historii kinematografie, Steven Spielberg je americký režisér známý svou prací na Čelisti, E.T. a Jurský park.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.director",
+    "pk": 3,
+    "fields": {
+      "name": "Martin Scorsese",
+      "birth_year": 1942,
+      "description": "Ikonická postava ve světě filmu, Martin Scorsese je americký režisér nejlépe známý pro své filmy jako Taxikář, Mafiáni a Irčan.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.director",
+    "pk": 4,
+    "fields": {
+      "name": "Greta Gerwig",
+      "birth_year": 1983,
+      "description": "Oceňovaná americká režisérka, Greta Gerwig je známá svým výrazným hlasem a filmy jako Lady Bird a Malé ženy, které se zaměřují na komplexní ženské postavy.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.director",
+    "pk": 5,
+    "fields": {
+      "name": "Wes Anderson",
+      "birth_year": 1969,
+      "description": "Známý svým jedinečným vizuálním a narativním stylem, Wes Anderson je americký režisér proslulý filmy jako Grandhotel Budapešť, Až vyjde měsíc a Taková zvláštní rodinka.",
+      "main_picture": ""
+    }
+  }
+]

@@ -1,5 +1,5 @@
 from django.db import models
-from datetime import date
+
 
 class Movie(models.Model):
     name = models.CharField(max_length=300, null=True)
@@ -29,6 +29,7 @@ class Genre(models.Model):
 
     def __str__(self):
         return self.name
+
 
 class Actor(models.Model):
     name = models.CharField(max_length=300, null=True)

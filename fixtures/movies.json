@@ -1,0 +1,57 @@
+[
+  {
+    "model": "filmy.movie",
+    "pk": 1,
+    "fields": {
+      "name": "Inception",
+      "year": 2010,
+      "footage": 148,
+      "description": "Dom Cobb je zkušený zloděj, absolutní špička ve nebezpečném umění extrakce: krádeže cenných tajemství z hlubiny podvědomí během snění, kdy je mysl nejzranitelnější. Cobbova vzácná schopnost z něj učinila ceněnou komoditu ve zrádném světě průmyslové špionáže, ale také z něj udělala uprchlíka a stála ho vše, co kdy miloval. Nyní Cobb dostává šanci vykoupit se. Jedno poslední zadání by mu mohlo vrátit zpět jeho život, ale pouze pokud dokáže nemožné – incepci. Místo dokonalé krádeže musí Cobb a jeho tým odborníků naopak dosáhnout pravého opaku: jejich úkolem není ukrást myšlenku, ale jednu do mysli vložit.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 2,
+    "fields": {
+      "name": "Interstellar",
+      "year": 2014,
+      "footage": 169,
+      "description": "Když se náš čas na Zemi chýlí ke konci, tým průzkumníků se vydává na nejdůležitější misi v lidské historii: cestu za hranice naší galaxie, aby zjistili, zda existuje budoucnost mimo naši planetu.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 3,
+    "fields": {
+      "name": "The Matrix",
+      "year": 1999,
+      "footage": 136,
+      "description": "Mladý programátor Thomas Anderson se dostane do kontaktu s nepolapitelným hackerem jménem Morpheus, který mu odhalí šokující pravdu o jeho realitě. Zjišťuje, že život, jak ho zná, je pouze iluze vytvořená umělou inteligencí.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 4,
+    "fields": {
+      "name": "The Grand Budapest Hotel",
+      "year": 2014,
+      "footage": 99,
+      "description": "Gustave H., legendární portýr ve slavném evropském hotelu, a Zero Moustafa, jeho mladý chráněnec, se stávají centrem dobrodružství zahrnujícího krádež cenného obrazu, boj o obrovské dědictví a neustálé pronásledování přes hory, údolí a sněhem pokryté vesnice.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 5,
+    "fields": {
+      "name": "The Dark Knight",
+      "year": 2008,
+      "footage": 152,
+      "description": "Batman, s pomocí poručíka Jima Gordona a státního zástupce Harveyho Denta, má za cíl zbavit město Gotham posledních zločineckých organizací. Jejich spojenectví se však brzy ocitá v ohrožení, když se objeví nový kriminální génius známý jako Joker, který vrhá město do anarchie.",
+      "main_picture": ""
+    }
+  }
+]
