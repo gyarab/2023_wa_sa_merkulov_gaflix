@@ -9,9 +9,15 @@ class Movie(models.Model):
     )
     description = models.TextField(blank=True)
     main_picture = models.ImageField(blank=True, null=True)
+    director = models.ForeignKey('Director', blank=True, null=True, on_delete=models.SET_NULL)
+    actors = models.ManyToManyField('Actor', blank=True)
+    genres = models.ManyToManyField('Genre', blank=True)
 
     def __str__(self):
         return self.name
+
+    def genres_display(self):
+        return ",".join([i.name for i in self.genres.all()])
 
 
 class Director(models.Model):
